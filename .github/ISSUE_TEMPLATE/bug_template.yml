@@ -23,22 +23,25 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: dropdown
+    id: installation
     attributes:
       label: OpenHands Installation
       description: How are you running OpenHands?
       options:
-        - label: Docker command in README
-        - label: Development workflow
+        - Docker command in README
+        - Development workflow
+      default: 0
 
-  - type: checkboxes
+  - type: dropdown
+    id: os
     attributes:
       label: Operating System
-      description: How are you running OpenHands?
       options:
-        - label: MacOS
-        - label: Linux
-        - label: WSL on Windows
+        - MacOS
+        - Linux
+        - WSL on Windows
+      default: 0
 
   - type: textarea
     id: additional-context
