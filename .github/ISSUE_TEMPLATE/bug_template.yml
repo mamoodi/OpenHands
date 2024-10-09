@@ -38,7 +38,7 @@ body:
     attributes:
       label: OpenHands Version
       description: What version of OpenHands are you using?
-      placeholder: ex. 0.9.8
+      placeholder: ex. 0.9.8, main, etc.
 
   - type: dropdown
     id: os
