@@ -41,7 +41,6 @@ body:
         - MacOS
         - Linux
         - WSL on Windows
-      default: 0
 
   - type: textarea
     id: additional-context
