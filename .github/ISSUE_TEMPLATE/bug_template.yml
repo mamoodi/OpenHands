@@ -33,6 +33,13 @@ body:
         - Development workflow
       default: 0
 
+  - type: input
+    id: openhands-version
+    attributes:
+      label: OpenHands Version
+      description: What version of OpenHands are you using?
+      placeholder: ex. 0.9.8
+
   - type: dropdown
     id: os
     attributes:
