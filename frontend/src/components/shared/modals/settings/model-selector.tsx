@@ -2,6 +2,7 @@ import {
   Autocomplete,
   AutocompleteItem,
   AutocompleteSection,
+  Tooltip,
 } from "@nextui-org/react";
 import React from "react";
 import { mapProvider } from "#/utils/map-provider";
@@ -142,7 +143,9 @@ export function ModelSelector({
                 .filter((model) => VERIFIED_MODELS.includes(model))
                 .map((model) => (
                   <AutocompleteItem key={model} value={model}>
-                    {model}
+                    <Tooltip content={model} delay={1000}>
+                      {model}
+                    </Tooltip>
                   </AutocompleteItem>
                 ))}
             </AutocompleteSection>
@@ -155,7 +158,9 @@ export function ModelSelector({
                     key={model}
                     value={model}
                   >
-                    {model}
+                    <Tooltip content={model} delay={1000}>
+                      {model}
+                    </Tooltip>
                   </AutocompleteItem>
                 ))}
             </AutocompleteSection>
