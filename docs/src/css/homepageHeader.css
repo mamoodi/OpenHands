@@ -43,3 +43,35 @@
 .header-links a:hover {
   transform: translateY(-2px);
 }
+
+.popular-links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.popular-links-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.popular-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popular-links li {
+  margin: 0.5rem 0;
+}
+
+.popular-links a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.popular-links a:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}

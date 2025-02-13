@@ -33,6 +33,24 @@ export function HomepageHeader() {
         </div>
 
         <Demo />
+
+        <div className="popular-links">
+          <Heading as="h2" className="popular-links-title">
+            <Translate>Most Popular Links</Translate>
+          </Heading>
+          <ul>
+            <li>
+              <Link to="/modules/usage/getting-started">
+                How to run OpenHands
+              </Link>
+            </li>
+            <li>
+              <Link to="/modules/usage/best-practices">
+                Best practices guide
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
