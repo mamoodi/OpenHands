@@ -1,7 +1,8 @@
 /* homepageHeader.css */
 
 .homepage-header {
-  height: 800px;
+  min-height: 800px;
+  padding-bottom: 2rem;
 }
 
 .header-content {
