@@ -23,6 +23,9 @@ export default function Home(): JSX.Element {
       })}
     >
       <HomepageHeader />
+      <div style={{ textAlign: 'center', padding: '2rem' }}>
+        <p>Most Popular Links</p>
+      </div>
     </Layout>
   );
 }
