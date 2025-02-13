@@ -2,6 +2,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import { HomepageHeader } from '../components/HomepageHeader/HomepageHeader';
 import { translate } from '@docusaurus/Translate';
+import Link from '@docusaurus/Link';
 
 export function Header({ title, summary }): JSX.Element {
   return (
@@ -25,6 +26,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <div style={{ textAlign: 'center', padding: '2rem' }}>
         <p>Most Popular Links</p>
+        <Link to="/modules/usage/getting-started">Running OpenHands</Link>
       </div>
     </Layout>
   );
